@@ -1,0 +1,104 @@
+/*@font-face {
+    font-family: "Grand Hotel";
+    src: url("fonts/GrandHotel-Regular.otf") format("opentype");
+}*/
+@import url('https://fonts.googleapis.com/css2? family= Poly & display=swap');
+@import url('https://fonts.googleapis.com/css2? famille= Kanit:wght@300 &family= Poly & display=swap');
+
+/*typographie*/
+body{
+    font-family: poly, Verdana, Geneva, Tahoma, sans-serif;
+}
+/*h1, h2, h3{
+    font-family: "Grand Hotel", Arial, Helvetica, sans-serif;
+}*/
+h1{
+    font-size: 64px;
+    font-family: kanit, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.zone-30{
+    width: 30%;
+}
+.zone-70{
+    width: 70%;
+}
+
+/* en tête*/
+header{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.marges{
+    padding:10px;
+}
+
+.photo-moi{
+    background-color: black;  
+ 
+}
+.photo-moi img{
+    border-radius: 200px;  
+      
+}
+li{
+    list-style-type: none;
+}
+/*main*/
+main{ 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.couleur-prenom{
+    color:orange;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.contacts{
+    background-color: grey;
+}
+#contact{
+    background-color: orange;
+    text-align: center;
+}
+#propos{
+    background-color: orange;
+    text-align: center;
+}
+.articles {
+    display: flex;
+    align-items: center;
+}
+.vide{
+    background-color: gray;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 10px
+}
+.recommandations{
+    display: flex;
+    flex-direction: row;
+}
+
+.png{
+    width: 4%;
+}
+.png1{
+    width: 6%;
+}
